@@ -29,4 +29,9 @@ public class UserService implements IUserService {
 		
 	}
 
+	@Override
+	public void delete(int id) {
+		userDao.deleteByPrimaryKey(id);
+	}
+
 }

@@ -38,7 +38,7 @@
         </javaClientGenerator>
         
         <!-- 要生成的表 tableName 是数据库中的表名或视图名 domainObjectName 是实体类名 -->
-        <table tableName="product" domainObjectName="Product"
+        <table tableName="product_price" domainObjectName="ProductPrice"
                enableCountByExample="false" enableUpdateByExample="false"
                enableDeleteByExample="false" enableSelectByExample="false"
                selectByExampleQueryId="false">

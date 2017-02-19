@@ -7,6 +7,8 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
+import com.aisi.pojo.User;
+
 /**
  *  index
  * @author Administrator
@@ -19,6 +21,7 @@ public class IndexController {
 	
 	@RequestMapping(value="/index",method={RequestMethod.GET})
 	public String toIndex(HttpServletRequest request, Model model) {
+		
 		
 		return "index";
 		

@@ -26,9 +26,14 @@ public class UserController {
 	@RequestMapping(value="/main",method={RequestMethod.GET})
 	public String toIndex(HttpServletRequest request, Model model) {
 		
-		if(request.getSession().getAttribute("user") == null){
+		User user = (User) request.getSession().getAttribute("user");
+		
+		if(user == null){
 			return "redirect:/user/login";
 		}else{
+			
+			model.addAttribute(user);
+			
 			return "user/main";
 		}
 		

@@ -10,10 +10,7 @@
 <meta content="black" name="apple-mobile-web-app-status-bar-style" />
 <meta content="telephone=no" name="format-detection" />
 <title></title>
-<link rel="stylesheet"
-	href="http://mlsy.hyxmt.cn/a/css/Jingle.css?r=20160501" />
-<link rel="stylesheet"
-	href='http://mlsy.hyxmt.cn/temple/mlsy/css/app.css' />
+<link rel="stylesheet" href="/css/index.css" />
 <style>
 body {
 	background-image: url(/images/bg.jpg);

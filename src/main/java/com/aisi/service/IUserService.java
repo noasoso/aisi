@@ -9,4 +9,6 @@ public interface IUserService {
 	public User getUserByName(String name);
 	
 	void save(User user);
+	
+	void delete(int userId);
 }
